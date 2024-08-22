@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Grey+Qo&display=swap" rel="stylesheet">
+    <style>
+        
+        *{
+            box-sizing: border-box;
+            margin: 0%;
+            padding: 0%;
+        }
+        nav ul{
+            display: flex;
+            justify-content: flex-end;
+            padding-top: 0;
+        }
+        nav ul li{
+            padding:10px;
+            text-decoration: none;
+        }
+            /* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+   img:hover{
+   transform: scale(1.2);
+    opacity: 6px;
+    
+   }
+        .header{
+            background-image: url("https://static.vecteezy.com/system/resources/previews/027/833/370/non_2x/blueberry-smoothie-with-fresh-berries-and-mint-leaves-on-black-background-blueberry-smoothie-or-milkshake-with-fresh-berries-ai-generated-free-photo.jpg");
+            background-repeat: no-repeat;
+            background-position: cover;
+            background-size: cover;
+            height: 100vh;
+            width: 100vw;
+            padding-bottom: 50px;
+            background-attachment: fixed;
+            -webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+
+        }
+        .h{
+            font-family: "Grey Qo", cursive;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 40px;
+            color: white;
+            padding-left: 20px;
+            padding-top:0px;
+  }
+  .pre{
+            /*text-align: center;
+            justify-content: center;*/
+            color:white;
+            font-size: 90px;
+            font-family: "Dancing Script", cursive;
+            font-optical-sizing: auto;
+            font-weight: 100;
+            font-style: normal;
+            padding-top: 200px;
+            padding-left: 300px;
+         }
+         .what,.team,.customer{
+            text-align: center;
+            padding-bottom: 50px;
+         }
+        .h1{
+            position: fixed;
+            width: 100%;
+        }
+         .w1{
+            display: flex;
+            justify-content: space-between;
+         }
+         img{
+            border-radius: 50%;
+         }
+        .resturent,.chef,.contact{
+            display: flex;
+            padding-bottom: 50px;
+         }
+         .read:hover{
+
+            color: orange;
+         }
+         .about:hover{
+
+          color: orange;
+          }
+          .footer{
+            background-color: black;
+            color:white;
+            display: flex;
+            justify-content: space-evenly;
+          }
+          .form{
+            background-image: url("https://media.istockphoto.com/id/2149956955/photo/decanter-of-cooking-oil-on-the-black-slate-serving-plate-decorated-with-ingredients-tomatoes.webp?b=1&s=170667a&w=0&k=20&c=8qkZT-v_QPkQalyiDYJ-VZblAZ9KaK07gN3d6bGSfTE=");
+            background-repeat: no-repeat;
+            background-position: cover;
+            background-size: cover;
+            height: 100vh;
+            padding-bottom: 50px;
+            font-family: "Dancing Script", cursive;
+          }
+          .courses{
+            background-image: url("https://images.unsplash.com/photo-1720855544314-67f1515dc8f0?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGZydWl0JTIwcGxhdGV8ZW58MHx8MHx8fDA%3D");
+            background-repeat: no-repeat;
+            background-position: cover;
+            background-size: cover;
+            height: 100vh;
+            
+          }
+          .f1{
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            padding-top: 100px;
+            font-size: 35px;
+          }
+          .f2 h1 p{
+            display: flex;
+            align-content: center;
+            color: aliceblue; 
+            padding-left: 220px;
+          }
+          .c1{
+            display: flex;
+            align-content: center;
+            padding-left: 280px;
+          }
+          .chef,.resturent,.what{
+            background-image: url("https://img.freepik.com/free-vector/vibrant-pink-watercolor-painting-background_53876-58931.jpg");
+            background-repeat: no-repeat;
+            background-position: cover;
+            background-size: cover;
+        }
+        .contact{
+            background-image: url("conbg.jpeg");
+            background-repeat: no-repeat;
+            background-position: cover;
+            background-size: cover;
+            color: white;
+        }
+          @media screen and (width>=576px){
+            body{
+                color: black;
+            }                
+          }
+          
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <nav class="h1">
+        <h1 class="h">jevelin</h1>
+            <ul  style="list-style-type: none;color: white;">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Menu">Menu</a></li>
+                <li><a href="#Reservation">Reservation</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+        <pre class="pre">Resturent & Dishes
+</pre></div>
+<article id="About">
+    <div class="what"><b style="font-size: 40px;padding-top: 20px;">What We Can Offer</b>
+    <p>---from our heart---</p>
+    <div class="w1">
+   <div class="card-img-top">
+    <img src="img.jpeg" alt="image not found" >
+    <div class="card-title"><b>Always</b>Fresh</div>
+    <div class="card-body">Nulla dapibus tempus malesuada. Duis ultrices lacinia eleifend. Etiam vel luctus nibh. Donec eu volutpat.</div>
+    </div>
+    <div class="card-img-top">
+        <img src="image7.jpeg" alt="image not found" >
+        <div class="card-title"><b>Eco</b>Product</div>
+        <div class="card-body">Nulla dapibus tempus malesuada. Duis ultrices lacinia eleifend. Etiam vel luctus nibh. Donec eu volutpat.</div>
+        </div>
+        <div class="card-img-top">
+            <img src="images.jpeg" alt="image not found" >
+            <div class="card-title"><b>Healthy</b>Desert</div>
+            <div class="card-body">Nulla dapibus tempus malesuada. Duis ultrices lacinia eleifend. Etiam vel luctus nibh. Donec eu volutpat.</div>
+            </div>
+            </div>
+</div>
+</article>
+    <div class="resturent">
+        <img src="https://w0.peakpx.com/wallpaper/15/381/HD-wallpaper-macarons-dessert-delicious-sweet-cookies.jpg"  width=760px alt="not found" >
+        <div style="padding-top: 70px;">
+        <div class="card-title"><h1>Welcome to jevelin Resturent</h1></div>
+        <div class="card-body"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sagittis tortor eget sodales ultrices. Pellentesque bibendum condimentum neque, nec iaculis augue ultrices ac. Fusce interdum viverra aliquet.</p></div>
+        <div class="about">About us</div>
+        </div>
+    </div>
+    <div class="chef">
+        <div style="padding-top: 70px;">
+            <div class="card-title"><h1>Chef & Owner Kate Fuson</h1></div>
+            <div class="card-body"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sagittis tortor eget sodales ultrices. Pellentesque bibendum
+
+            </p></div>
+            <div class="read">Read More</div>
+            </div>
+        <img src="https://media.istockphoto.com/id/1500895443/photo/balls-of-homemade-strawberry-ice-cream-in-a-bowl.webp?b=1&s=170667a&w=0&k=20&c=vj6k7diRlJ9PxI_3j7mjURU5_TcJYTsxmi6ay7tX5Og=" alt="not found">
+    </div>
+    <div class="team">
+        <b style="font-size: 40px;padding-top: 20px;">Our Team</b>
+    <p>---is the best---</p>  
+    <div style="display: flex; justify-content: space-evenly; gap: 10px;">
+    <div class="card-img-top">
+        <img src="team1.png" alt="image not found" height="300px" >
+        <div class="card-title"><b>Calor Willium</b>
+        <p>MANAGER</p></div>
+        <div class="card-body">A restaurant manager is responsible for the day-to-day operations of a restaurant, bar, or other food service establishment. They are in charge of ensuring the restaurant runs efficiently and smoothly, and that customers are satisfied and employees are successful. 
+        </div>
+        </div>
+        <div class="card-img-top">
+            <img src="team2.png" alt="image not found" height="300px">
+            <div class="card-title"><b>Peter Luren</b>
+            <p>BAR DIRECTER</p></div>
+            <div class="card-body">A restaurant manager is responsible for the day-to-day operations of a restaurant, bar, or other food service establishment. They are in charge of ensuring the restaurant runs efficiently and smoothly, and that customers are satisfied and employees are successful. 
+            </div>
+        </div>
+        <div class="card-img-top">
+            <img src="team3.png" alt="image not found" height="300px" >
+            <div class="card-title"><b>Kate Fuson</b>
+            <p>HEAD CHEF</p></div>
+            <div class="card-body"></div>
+            A head chef, also known as a Chef de Cuisine, is a culinary expert who manages the kitchen of a restaurant or other dining facility. They are responsible for many aspects of the kitchen, including: 
+
+        </div>
+        <div class="card-img-top">
+            <img src="team4.png" alt="image not found" height="300px">
+            <div class="card-title"><b>Jack Fuson</b>
+            <P>WINE DIRECTOR</P></div>
+            <div class="card-body"></div>
+            A restaurant wine director is a hospitality professional who manages the wine program for a restaurant, hotel, or wine bar. They're responsible for all aspects of the wine list and wine service, including: 
+
+            </div>
+        </div>
+    </div>
+    <article id="Menu">
+    <div class="courses">
+        <div class="c1">
+        <pre>
+        <h1 style="font-size: 40px; color: white;">Enjoy The Best Cuisine</h1>
+              <p style="padding-left: 200px; color: aliceblue;">---on this planet---</p>
+        <table style="background-color: azure; font-size: 20px; height: 300px;width: 700px;" cellspacing:20px;>
+            <tr style="color: orange;">
+                <th><u>Starters</u></th>
+                <th><u>Mains</u></th>
+            </tr>
+            <tr>
+                <td><pre>Proin gravida    $10.5</pre></td>
+                <td><pre>Proin gravida    $10.5</pre></td>
+            </tr>
+            <tr>
+                <td><pre>Proin gravida    $10.5</pre></td>
+                <td><pre>Proin gravida    $10.5</pre></td>
+            </tr>
+            <tr>
+                <td><pre>Proin gravida    $10.5</pre></td>
+                <td><pre>Proin gravida    $10.5</pre></td>
+            </tr>
+         </table>
+         <input style="transform: scale(1.5); border-radius: 25px;" type="button" value="view full menu">
+         </pre>
+         </div>
+    </div>
+    </article>
+    <div class="customer">
+        <pre>
+        <h1 style="font-size: 50px;"><b>Customer</b></h1>
+        <p>---stories about us---</p>
+        </pre>
+        <div class="card-img-top">
+            <img src="cus1.jpeg" alt="image not found" >
+            <div class="card-title"><b>Katey Gallardeo</b></div>
+            <div class="card-body" style="padding: 40px;">Aenean consectetur lacinia diam a tincidunt.
+                Vivamus facilisis lacus non velit suscipit Pellentesque.Nam ac 
+                mauries nec mi lobortis sollicitudin sed at lacus.Fusce volupat,
+                dolor in suscipit pharetra,lacus sapien sollicitudin quam, non
+                aliquam ex neque eu lectus.
+            </div> 
+        </div>
+    </div>
+    <article id="Reservation">
+       <div class="form">
+               <div class="f2">
+            <pre>
+            <h1 style="font-size: 40px; padding-left: 300px;">Select a Date & Book Now</h1>
+            <p style="padding-left: 350px;"><b>---we confirm order via Email or Number---</b></p>
+            </pre>
+        </div>
+        <div class="f1">
+            <form>
+            <label for="1" style="color: white;">Firstname</label>
+            <input type="text" id="1" value="*firstname" name="name">
+            <label for="2" style="color: white;">Lastname</label>
+            <input type="text" id="2" valve="*lastname" name="name"><br><br>
+            <label for="3" style="color: white;">Email</label>
+            <input type="text" id="3" value="*Email" name="name">
+            <label for="4" style="color: white;">Number</label>
+            <input type="text" id="4" valve="*Number" name="name"><br><br>
+            <label for="5" style="color: white;">Date</label>
+            <input type="date" id="5" value="date" name="date">
+            <label for="6" style="color: white;">Time</label>
+            <input type="text" id="6" valve="*time" name="name">
+            <label for="7" style="color: white;">persons</label>
+            <input type="text" id="7" value="*select persons" name="name">
+        </form>
+        </div>
+        </div>
+        </article>
+        <article id="Contact">
+    <div class="contact" style="font-size: 25px;">
+        <div>
+        <h1 style="padding: 50px;">How to find & contact us</h1>
+       <p style="padding: 50px;"><b>Monday - Thursday</b>-10:00 - 22:00</p>
+
+       <p style="padding: 50px;"><b>Friday - Saturday</b>-11:00 - 21:00</p>
+
+       <p style="padding: 50px;"><b>Sunday</b>-Closed</p>
+       </div>
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.3019098188524!2d78.39954787516734!3d17.493095683412182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91625d9cd1ad%3A0x4455387ad24a675d!2s10000coders!5e0!3m2!1sen!2sin!4v1723911732079!5m2!1sen!2sin" style="margin: 80px;" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</article>
+    <div class="footer">
+        <h1>jevelin</h1>
+        <p>Wordpress Theme built by <b>shuffelhound</b></p>
+    </div>
+</body>
+</html>
